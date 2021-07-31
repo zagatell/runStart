@@ -1,0 +1,21 @@
+.feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 303px;
+    input {
+        height: 54px;
+        background: #FFFFFF;
+        margin-bottom: 15px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4B4B4B;
+        &:last-child {
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Museo-sans';
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advant';
+@import 'blocks/titles.scss';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+
+
+@import 'blocks/media';
+
+
+

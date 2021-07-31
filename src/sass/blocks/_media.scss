@@ -1,0 +1,60 @@
+@media(max-width: 768px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .advant {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__item {
+            width: 255px;
+            &:nth-child(3) {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .promo {
+        &__wrapper {
+            margin-top: 75px;
+        }
+        &__header {
+            text-align: left;
+            font-size: 36px;
+        }
+        &__subheader {
+            text-align: left;
+            margin-top: 30px;
+        }
+        &__icons {
+            width: 315px;
+            font-size: 11px;
+            display: flex;
+            align-items: baseline;
+        }
+    }
+    .header {
+        align-items: flex-start;
+        &__logo {
+            img {
+                width: 80%;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .advant {
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__item {
+            width: 272px;
+            margin-top: 20px;
+        }
+    }
+}
