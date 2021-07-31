@@ -1,4 +1,10 @@
 @media(max-width: 768px) {
+    .promo{
+        &__header {
+            font-size: 35px;
+            text-align: left;
+        }
+    }
     .header {
         &__official {
             display: none;
@@ -15,12 +21,23 @@
             }
         }
     }
+    .consultation {
+        &__descr {
+            line-height: 25px;
+            margin-top: 20px;
+        }
+    }
+    .title_left {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 @media(max-width: 576px) {
     .promo {
         &__wrapper {
             margin-top: 75px;
+            align-items: flex-start;
         }
         &__header {
             text-align: left;
@@ -31,7 +48,7 @@
             margin-top: 30px;
         }
         &__icons {
-            width: 315px;
+            width: 300px;
             font-size: 11px;
             display: flex;
             align-items: baseline;
@@ -49,12 +66,19 @@
         }
     }
     .advant {
+        padding-top: 50px;
         &__wrapper {
             margin-top: 30px;
         }
         &__item {
             width: 272px;
             margin-top: 20px;
+        }
+    }
+    .consultation {
+        padding: 60px 0 90px 0;
+        &__descr {
+            font-size: 18px;
         }
     }
 }
