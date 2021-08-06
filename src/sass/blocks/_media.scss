@@ -81,4 +81,9 @@
             font-size: 18px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 0;
+        }
+    }
 }
